@@ -1,0 +1,132 @@
+{
+  "greet": "",
+  "major": {
+    "2": {
+      "date": "20/6/2023",
+      "name": "Học bổng "
+    },
+    "id": {
+      "date": "15/08/2023",
+      "name": "Học bổng chính phủ Úc"
+    }
+  },
+  "program": {
+    "admission_conditions": [
+      null,
+      {
+        "description": "Tốt nghiệp THPT hoặc tương đương"
+      },
+      {
+        "description": "Điểm trung bình cộng các môn trong bảng điểm THPT đạt từ 6.5 trở lên (hoặc tương đương)."
+      },
+      {
+        "description": "Điểm thi đạt từng môn trong kỳ thi THPT quốc gia không thấp hơn mức điểm qui định của Bộ Giáo dục và Đào tạo (thường là 5 điểm)."
+      },
+      {
+        "description": "Đạt kết quả thi đánh giá năng lưc hà nội"
+      },
+      {
+        "description": "Đạt kết quả xét tuyển theo phương thức xét học bạ hoặc thi tuyển."
+      }
+    ],
+    "admission_method": [
+      null,
+      {
+        "description": "Căn cứ vào điểm thi và điểm đầu vào để xét tuyển",
+        "name": "phương thức tuyển thẳng"
+      },
+      {
+        "description": "Căn cứ vào điểm thi và điểm đầu vào để xét tuyển",
+        "name": "phương thức qua thi trung học phổ thông quốc gia"
+      },
+      {
+        "description": "Với những bẳng IELTS từ 5.5 trở đi",
+        "name": "phương thức tuyển thẳng bằng IELTS"
+      }
+    ],
+    "student_activities": {
+      "club_and_student_organization": [
+        null,
+        {
+          "description": "Câu lạc bộ về Lập trình thi đấu",
+          "name": "ITMC"
+        },
+        {
+          "description": "Câu lạc bộ kết nối",
+          "name": "Kết nối"
+        }
+      ]
+    },
+    "training_costs": [
+      null,
+      {
+        "credit": {
+          "type": "VND",
+          "value": 1000000
+        },
+        "name": "an toàn thông tin",
+        "number_of_subject": 10
+      },
+      {
+        "credit": {
+          "type": "VND",
+          "value": 10000000
+        },
+        "name": "Công nghệ thông tin",
+        "number_of_subject": 10
+      },
+      {
+        "credit": {
+          "type": "VND",
+          "value": 10000000
+        },
+        "name": "Kế toán",
+        "number_of_subject": 10
+      }
+    ]
+  },
+  "scholarship": {
+    "scholarship": [
+      null,
+      {
+        "description": "Học bổng này sẽ giúp cho sinh viên được miễn toàn bộ học phí và chi phí sinh hoạt và các chi phí phát sinh khác trong suốt quá trình học",
+        "name": "Học bổng toàn phần"
+      },
+      {
+        "description": "Học bổng này giúp cho sinh viên được miễn một phần học phí hoặc các chi phí phát sinh trong suốt qua trình học tập tại trường ",
+        "name": "Học bổng bán phần"
+      },
+      {
+        "description": "Học bổng này dành cho những sinh viên có thành tích học tập xuất sắc trong các kỳ thi hoặc cả năm học",
+        "name": "Học bổng khuyến học"
+      },
+      {
+        "description": "Học bổng nghiên cứu khoa học này hỗ trợ sinh viên thực hiện nghiên cứu khoa học trong lĩnh vực doanh nghiệp và kinh tế",
+        "name": "Học bổng nghiên cứu khoa học"
+      }
+    ],
+    "scholarship_documents": [
+      null,
+      {
+        "description": "Bảng điểm là một trong những yếu tổ quan trọng nhất và thường đánh giá khả năng học tập và nghiên cứu của sinh viên",
+        "name": "bảng điểm"
+      },
+      {
+        "description": "Đơn xin học bổng là tài liệu quan trọng để giới thiệu bản thân của sinh viên và giải thích tại sao họ xứng đáng được cấp học bổng. Đơn xin học bổng thường được yêu cầu những thông tin cơ bản",
+        "name": "Đơn xin học bổng"
+      },
+      {
+        "description": "Thư giới thiệu từ giảng viên, nhà nghiên cứu, hoặc người quen có thể giúp cho sinh viên tăng cơ hội được nhận học bổng",
+        "name": "Thư giới thiệu"
+      },
+      {
+        "description": "Nếu học bổng yêu cầu, sinh viên có thể việt một bài luận này thường được đánh giá dựa trên nội dung, cấu trúc, ý tưởng",
+        "name": "Bài luận"
+      },
+      {
+        "description": "Một số yêu cầu học bổng chứng nhận sinh viên cung cấp chứng chỉ tiếng anh",
+        "name": "Giấy chứng nhận"
+      }
+    ]
+  }
+}
