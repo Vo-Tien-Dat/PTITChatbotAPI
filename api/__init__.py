@@ -11,9 +11,10 @@ def create_app():
     app = Flask(__name__)
     app.config['SECRET_KEY'] = 'CHATBOTFORADMISSIONS'
     from .MajorApi import MajorApi
-    from .ScholarshipApi import ScholarshipApi
-    from .ProgramApi import ProgramApi
+    from .AdmissionApi import AdmissionApi
+    from .CostApi import CostApi
+
+    app.register_blueprint(CostApi, url_prefix = '/cost')
     app.register_blueprint(MajorApi, url_prefix = '/major')
-    app.register_blueprint(ScholarshipApi, url_prefix = '/scholarship')
-    app.register_blueprint(ProgramApi, url_prefix = '/program')
+    app.register_blueprint(AdmissionApi, url_prefix = '/admission')
     return app
